@@ -70,4 +70,4 @@ if __name__ == "__main__":
                 vllm_inference_interface.render()
             with gr.Column():
                 sky_pilot_interface.render()
-    app.launch()
+    app.launch(share=True)
